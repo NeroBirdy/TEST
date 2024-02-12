@@ -5,8 +5,12 @@ namespace LABA
 {
     public class toTest
     {
-         public int[] Sort(int[] arr)
+        public int[] Sort(int[] arr)
         {
+            if (arr.Length == 0)
+            {
+                return [-1];
+            }
             for (int i = 0; i < arr.Length; i++)
             {
                 for (int j = 0; j < arr.Length - 1 - i; j++)
@@ -24,6 +28,10 @@ namespace LABA
 
         public bool Palindrom(string s)
         {
+            if (s == "")
+            {
+                return false;
+            }
             for (int i = 0, j = s.Length - 1; i < j; i++, j--)
                 if (s[i] != s[j])
                     return false;
@@ -33,6 +41,10 @@ namespace LABA
 
         public int Factorial(int x)
         {
+            if (x < 0 || x >= 13)
+            {
+                return -1;
+            }
             int a = 1;
             for (int i = x; i > 0; i--)
             {
@@ -43,6 +55,11 @@ namespace LABA
 
         public int Fibonachi(int n)
         {
+            if (n < 0 || n > 47)
+            {
+                return -1;
+            }
+
             if (n == 0 || n == 1) return n;
 
             return Fibonachi(n - 1) + Fibonachi(n - 2);
@@ -50,11 +67,28 @@ namespace LABA
 
         public bool Includes(string s, string sub)
         {
+            if (sub.Length > s.Length)
+            {
+                return false;
+            }
+            else if (s == "" && sub == "")
+            {
+                return true;
+            }
+            else if (s == "" || sub == "")
+            {
+                return false;
+            }
             return s.Contains(sub);
         }
 
         public bool simpleNumber(int n)
         {
+            if (n < 0)
+            {
+                return false;
+            }
+
             for (int i = 2; i < n - 1; i++)
                 if (n % i == 0)
                     return false;
@@ -64,6 +98,10 @@ namespace LABA
         public int Reverse(int number)
         {
             string number2 = number.ToString();
+            if (number2.Length == 1)
+            {
+                return number;
+            }
             string reverse = new string(number2.Reverse().ToArray());
             char minus = reverse[reverse.Length - 1];
             if (minus == '-')

@@ -12,3 +12,4 @@ C:\Users\Nero\Desktop\TEST\LABA1\Console\obj\Debug\net8.0\refint\Console.dll
 C:\Users\Nero\Desktop\TEST\LABA1\Console\obj\Debug\net8.0\Console.pdb
 C:\Users\Nero\Desktop\TEST\LABA1\Console\obj\Debug\net8.0\Console.genruntimeconfig.cache
 C:\Users\Nero\Desktop\TEST\LABA1\Console\obj\Debug\net8.0\ref\Console.dll
+C:\Users\Nero\Desktop\TEST\LABA1\Console\obj\Debug\net8.0\Console.sourcelink.json
