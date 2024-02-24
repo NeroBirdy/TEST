@@ -33,12 +33,12 @@ namespace LABA2
         {
             if (n < 0 || n > 20)
             {
-               return -1; 
+                return -1;
             }
             else if (n == 0)
             {
                 return 1;
-            }   
+            }
             else
                 return n * Factorial(n - 1);
         }
@@ -105,7 +105,23 @@ namespace LABA2
             {
                 return -2;
             }
-            return Math.Sqrt(underSqrt);
+            return Sqrt(underSqrt);
+        }
+
+        public double Sqrt(double x, double epsilon = 1e-15)
+        {
+            if (x < 0)
+            {
+                return -1;
+            }
+
+            double guess = x / 2;
+            while (Abs(guess * guess - x) > epsilon)
+            {
+                guess = (guess + x / guess) / 2;
+            }
+
+            return guess;
         }
 
         public double secondStmt(double x)

@@ -101,6 +101,15 @@ public class Tests
         Assert.That(obj.Abs(x), Is.EqualTo(res).Within(0.0001));
     }
 
+    [TestCase(5,25)]
+    [TestCase(-1, -1)]
+    [TestCase(3.240370, 10.5)]
+    [TestCase(10, 100)]
+    public void Sqrt(double res, double x)
+    {
+        Assert.That(obj.Sqrt(x), Is.EqualTo(res).Within(0.0001));
+    }
+
     [Test]
     public void SinfirstStmt()
     {
