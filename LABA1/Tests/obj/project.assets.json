@@ -1007,11 +1007,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nero\\Desktop\\TEST\\LABA1\\Tests\\Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Nero\\Desktop\\TEST\\laba1\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Users\\Nero\\Desktop\\TEST\\LABA1\\Tests\\Tests.csproj",
+      "projectPath": "C:\\Users\\Nero\\Desktop\\TEST\\laba1\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\Nero\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nero\\Desktop\\TEST\\LABA1\\Tests\\obj\\",
+      "outputPath": "C:\\Users\\Nero\\Desktop\\TEST\\laba1\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nero\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1028,8 +1028,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Nero\\Desktop\\TEST\\LABA1\\Console\\Console.csproj": {
-              "projectPath": "C:\\Users\\Nero\\Desktop\\TEST\\LABA1\\Console\\Console.csproj"
+            "C:\\Users\\Nero\\Desktop\\TEST\\laba1\\Console\\Console.csproj": {
+              "projectPath": "C:\\Users\\Nero\\Desktop\\TEST\\laba1\\Console\\Console.csproj"
             }
           }
         }

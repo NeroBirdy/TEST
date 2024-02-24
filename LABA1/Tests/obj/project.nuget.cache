@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5hqFH+0vFH4YULow2+RFNqXGApIvzQ4ZQwSOJxKa4K5PtTTDgTqGPNXMsJgtpwsNDYKMpWGdEgPJ4hVJfUFh/Q==",
+  "dgSpecHash": "QsqWR6jR0ibm8LzhfsRKXOH2J2q8GVQA27TNVPRZ6vhgc+q+FTSPhfkMI67u+wpBdTpcIAce9HnCigYHkJBoqw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nero\\Desktop\\TEST\\LABA1\\Tests\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\Nero\\Desktop\\TEST\\laba1\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nero\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Nero\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",

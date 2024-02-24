@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nero\\Desktop\\TEST\\LABA1\\Console\\Console.csproj": {}
+    "C:\\Users\\Nero\\Desktop\\TEST\\laba1\\Console\\Console.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nero\\Desktop\\TEST\\LABA1\\Console\\Console.csproj": {
+    "C:\\Users\\Nero\\Desktop\\TEST\\laba1\\Console\\Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nero\\Desktop\\TEST\\LABA1\\Console\\Console.csproj",
+        "projectUniqueName": "C:\\Users\\Nero\\Desktop\\TEST\\laba1\\Console\\Console.csproj",
         "projectName": "Console",
-        "projectPath": "C:\\Users\\Nero\\Desktop\\TEST\\LABA1\\Console\\Console.csproj",
+        "projectPath": "C:\\Users\\Nero\\Desktop\\TEST\\laba1\\Console\\Console.csproj",
         "packagesPath": "C:\\Users\\Nero\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nero\\Desktop\\TEST\\LABA1\\Console\\obj\\",
+        "outputPath": "C:\\Users\\Nero\\Desktop\\TEST\\laba1\\Console\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nero\\AppData\\Roaming\\NuGet\\NuGet.Config",
